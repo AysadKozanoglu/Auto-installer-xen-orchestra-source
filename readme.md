@@ -9,7 +9,8 @@ The single line installation script allows you to go from a bare-minimal install
 ##### before running Auto-installer Script:
 
 + Server pool created over XenCenter Tool
-+ Create a VM XenCenter with 2GB RAM, 10GB vdisk, 1 vCore CPU
++ Create a VM with XenCenter 
+    + 2GB RAM, 10GB vdisk, 1 vCore CPU
 + Install Debian jessie 8.11 Core/ Base / minimal installation
 
 
