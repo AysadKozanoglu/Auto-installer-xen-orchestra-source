@@ -1,6 +1,5 @@
 # XENSERVER - Xen-Orchestra (Community Edition) Installer
-Distribution: debian jessie 8.11 (production tested)
-XENSERVER: 6.5 > and above would work fine
+
 
 Xen-Orchestra (Community Edition) allows you to administer Citrix XenServer and XCP-ng as well as backup any VM's running on these systems. 
 
@@ -8,11 +7,12 @@ The single line installation script allows you to go from a bare-minimal install
 
 #### INFO  requirements 
 ##### before running Auto-installer Script:
-
++ 
++ XENSERVER: 6.5 > and above would work fine
 + Server pool created over XenCenter Tool
 + Create a VM with XenCenter 
     + 2GB RAM, 10GB vdisk, 1 vCore CPU
-+ Install Debian jessie 8.11 Core/ Base / minimal installation
+    + Install Debian jessie 8.11 Core/ Base / minimal installation
 
 
 #### Xen Orchestra Community edition - oneline Auto installer script 
