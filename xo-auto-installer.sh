@@ -16,7 +16,7 @@ distro=$(/usr/bin/lsb_release -is)
 if [ "$distro" = "Ubuntu" ]; then /usr/bin/add-apt-repository multiverse; fi
 
 xo_branch="master"
-xo_server="https://github.com/vatesfr/xen-orchestra"
+xo_server="https://github.com/AysadKozanoglu/xen-orchestra"
 n_repo="https://raw.githubusercontent.com/visionmedia/n/master/bin/n"
 yarn_repo="deb https://dl.yarnpkg.com/debian/ stable main"
 node_source="https://deb.nodesource.com/setup_8.x"
