@@ -43,7 +43,7 @@ apt-get update && sudo apt-get --yes install yarn
 
 cd /opt/
 
-git clone -b master http://github.com/vatesfr/xen-orchestra
+git clone -b $xo_branch $xo_server
 
 cp /opt/xen-orchestra/packages/xo-server/sample.config.yaml /opt/xen-orchestra/packages/xo-server/.xo-server.yaml
 
