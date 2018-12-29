@@ -39,7 +39,7 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
 
-apt-get update && sudo apt-get --yes install yarn
+apt-get update && apt-get --yes install yarn
 
 cd /opt/
 
@@ -50,6 +50,7 @@ cp /opt/xen-orchestra/packages/xo-server/sample.config.yaml /opt/xen-orchestra/p
 
 # Install n
 /usr/bin/curl -o $n_location $n_repo
+
 /bin/chmod +x $n_location
 
 # Symlink node directories
@@ -59,7 +60,9 @@ ln -s /usr/bin/node /usr/local/bin/node
 sed -i 's/< 5/> 0/g' /opt/xen-orchestra/packages/xo-web/src/xo-app/settings/config/index.js
 
 cd $xo_server_dir
+
 /usr/bin/yarn
+
 /usr/bin/yarn build
 
 cd packages/xo-server
