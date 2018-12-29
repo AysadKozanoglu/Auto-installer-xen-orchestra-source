@@ -1,5 +1,8 @@
 #!/bin/bash
 # Author: Aysad Kozanoglu
+# 
+# Quick Launch Installer onliner:
+#  wget -O -  https://git.io/fhIr6 | bash
 
 
 # Check if we were effectively run as root
