@@ -16,4 +16,9 @@ curl https://git.io/fhIr6 | bash
 
 wait the installation sequenz on CLI finishing.
 
+
+#### screenshot
+
+![xen orchestra auto installer](https://raw.githubusercontent.com/AysadKozanoglu/Auto-installer-xen-orchestra-source/master/xen-orchestra-community-autoInstaller.png)
+
 that's it.
