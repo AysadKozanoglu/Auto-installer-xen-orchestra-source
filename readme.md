@@ -3,7 +3,7 @@ Distribution: debian jessie 8.11 (production tested)
 
 Xen-Orchestra (Community Edition) allows you to administer Citrix XenServer and XCP-ng as well as backup any VM's running on these systems. 
 
-The single line installation script allows you to go from a bare-minimal installation of Ubuntu or Debian (Server) to fully operational XOCE server. 
+The single line installation script allows you to go from a bare-minimal installation of Ubuntu or Debian (Server) to <b><i> fully operational XOCE server. </i></b>
 
 
 #### Xen Orchestra Community edition - oneline Auto installer script 
