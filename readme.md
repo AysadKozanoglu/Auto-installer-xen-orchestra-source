@@ -7,7 +7,7 @@ The single line installation script allows you to go from a bare-minimal install
 
 #### INFO  requirements 
 ##### before running Auto-installer Script:
-+ 
+
 + XENSERVER: 6.5 > and above would work fine
 + Server pool created over XenCenter Tool
 + Create a VM with XenCenter 
