@@ -15,7 +15,8 @@ The single line installation script allows you to go from a bare-minimal install
     + Install Debian jessie 8.11 Core/ Base / minimal installation
 
 
-#### Xen Orchestra Community edition - oneline Auto installer script 
+#### Auto Installation Script - Xen Orchestra Community edition from source
+oneline Auto installer script 
 
 Run the following step from a root shell.
 
