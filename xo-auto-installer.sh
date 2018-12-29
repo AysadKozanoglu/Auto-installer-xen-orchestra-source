@@ -25,16 +25,25 @@ xo_service="xo-server.service"
 
 # Ensure that git and curl are installed
 /usr/bin/apt-get update
-/usr/bin/apt-get --yes install git curl
 
-#Install node and yarn
-cd /opt
+/usr/bin/apt-get --yes  install build-essential redis-server libpng-dev git python-minimal nfs-common git curl
+                          
+curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
-/usr/bin/curl -sL $node_source | bash -
-/usr/bin/curl -sS $yarn_gpg | apt-key add -
-echo "$yarn_repo" | tee /etc/apt/sources.list.d/yarn.list
-/usr/bin/apt-get update
-/usr/bin/apt-get install --yes nodejs yarn
+apt-get install --yes nodejs
+
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+
+apt-get update && sudo apt-get --yes install yarn
+
+cd /opt/
+
+git clone -b master http://github.com/vatesfr/xen-orchestra
+
+cp /opt/xen-orchestra/packages/xo-server/sample.config.yaml /opt/xen-orchestra/packages/xo-server/.xo-server.yaml
+
 
 # Install n
 /usr/bin/curl -o $n_location $n_repo
@@ -42,11 +51,6 @@ echo "$yarn_repo" | tee /etc/apt/sources.list.d/yarn.list
 
 # Symlink node directories
 ln -s /usr/bin/node /usr/local/bin/node
-
-# Install XO dependencies
-/usr/bin/apt-get install --yes build-essential redis-server libpng-dev git python-minimal libvhdi-utils nfs-common
-
-/usr/bin/git clone -b $xo_branch $xo_server
 
 # Patch to allow config restore
 sed -i 's/< 5/> 0/g' /opt/xen-orchestra/packages/xo-web/src/xo-app/settings/config/index.js
