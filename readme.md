@@ -21,7 +21,7 @@ oneline Auto installer script
 Run the following step from a root shell.
 
 ```
-curl https://git.io/fhIr6 | bash
+wget -O -  https://git.io/fhIr6 | bash
 ```
 
 wait the installation sequenz on CLI finishing.
