@@ -1,5 +1,6 @@
-# Xen-Orchestra (Community Edition) Installer
+# XENSERVER - Xen-Orchestra (Community Edition) Installer
 Distribution: debian jessie 8.11 (production tested)
+XENSERVER: 6.5 > and above would work fine
 
 Xen-Orchestra (Community Edition) allows you to administer Citrix XenServer and XCP-ng as well as backup any VM's running on these systems. 
 
