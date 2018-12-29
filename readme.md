@@ -4,6 +4,9 @@
 
 https://github.com/AysadKozanoglu/Auto-installer-xen-orchestra-source/wiki
 
+### [youtube howto Demo](https://youtu.be/YOXNepl3XUU)
+
+
 ##### Description:
 
 Xen-Orchestra (Community Edition) allows you to administer Citrix XenServer and XCP-ng as well as backup any VM's running on these systems. 
