@@ -1,11 +1,16 @@
 # XENSERVER - Xen-Orchestra (Community Edition) Installer
 
+## [Howto Wiki](https://github.com/AysadKozanoglu/Auto-installer-xen-orchestra-source/wiki)
+
+https://github.com/AysadKozanoglu/Auto-installer-xen-orchestra-source/wiki
+
+##### Description:
 
 Xen-Orchestra (Community Edition) allows you to administer Citrix XenServer and XCP-ng as well as backup any VM's running on these systems. 
 
 The single line installation script allows you to go from a bare-minimal installation of Ubuntu or Debian (Server) to <b><i> fully operational XOCE server. </i></b>
 
-#### INFO  requirements 
+#### INFO - Requirements:
 ##### before running Auto-installer Script:
 
 + XENSERVER: 6.5 > and above would work fine
