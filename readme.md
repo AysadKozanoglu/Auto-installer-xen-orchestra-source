@@ -19,6 +19,10 @@ wait the installation sequenz on CLI finishing.
 
 #### screenshot
 
+##### Auto-installer Finished Status:
 ![xen orchestra auto installer](https://raw.githubusercontent.com/AysadKozanoglu/Auto-installer-xen-orchestra-source/master/xen-orchestra-community-autoInstaller.png)
+
+###### Xen Orchestra Community edition GUI
+![xen orchestra community edtition GUI](https://github.com/AysadKozanoglu/Auto-installer-xen-orchestra-source/raw/master/xen-orchestra-community-autoInstaller-gui.png)
 
 that's it.
